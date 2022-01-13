@@ -1,26 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import GetAllConferences from './components/getAllConferences'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Mathias er dum
-        </p>
-        <a
 
+  
+  return (
+    <>
+    <div className="App">
+      
+        <h1>
+          Her er en liste af alle Conferencer.
+        </h1>
+          
+
+          <GetAllConferences/>
         
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dette er min aflevering (Se det flotte logo)
-        </a>
-      </header>
+        
+      
     </div>
+    </>
   );
 }
 
